@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BingleShop</title>
+        <script src="script.js"></script>
+        <link rel="icon" href="src/picLogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style flex.css">
+        </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <div id="login" style="display: block">
+                <section class="card">
+                    <p>LOGIN</p>
+                </section>
+                <section class="card">
+                    <form action="/'login.js" class="forms">
+                        <label for="username">username :</label>
+                        <input type="text" id="username" name="username">
+                        <br>
+                        <br>
+                        <label for="password">password :</label>
+                        <input type="password" id="password" name="password">
+                        <br>
+                        <br>
+                        <input type="button" value="button">
+                    </form>
+                </section>
+                <section class="card">
+                    <p>belum punya akun ?</p>
+                    <input style="margin-left: 10px;margin-top: 12px;display:inline-block;height:fit-content;width:fit-content " onclick="switch_login()" type="button" value ="register"/>
+                </section>
+            </div>
+            <div id="register" style="display: none">
+                <section class="card">
+                    <p>REGISTER</p>
+                </section>
+                <section class="card">
+                    <form action="/'register.js" class="forms">
+                        <label for="username">username :</label>
+                        <input type="text" id="username" name="username">
+                        <br>
+                        <br>
+                        <label for="password">password :</label>
+                        <input type="password" id="password" name="password">
+                        <br>
+                        <br>
+                        <label for="email">email :</label>
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <br>
+                        <input type="button" value="button">
+                    </form>
+                </section>
+                <section class="card">
+                    <p>sudah punya akun ?</p>
+                    <input style="margin-left: 10px;margin-top: 12px;display:inline-block;height:fit-content;width:fit-content " onclick="switch_login()" type="button" value ="login"/>
+                </section>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

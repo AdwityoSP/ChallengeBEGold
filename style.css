@@ -1,0 +1,39 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    background-color:#EEE;
+    width: 300px;
+    height: fit-content;
+    border: 2px #393E46;
+    border-width: 2px;
+    box-shadow: 0 4px 8px 0 #393E46;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+ }
+.card:hover{
+    box-shadow: 0 8px 16px 0 #393E46;
+ }
+@media screen and (max-width: 1000px){
+    main,
+    #d1,
+    #d2 {
+        float: none;
+        max-width: none;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .flex-row .card{
+        min-height: fit-content;
+    }
+}
+@media screen and (max-width: 1000px){
+    .flex-column,
+    .flex-row{
+        flex-direction: column;
+    }
+}
